@@ -1,6 +1,5 @@
 # 1inorder 管理后台
 
-![GitHub License](https://img.shields.io/github/license/huey1in/1inorder_back)
 ![GitHub Stars](https://img.shields.io/github/stars/huey1in/1inorder_back)
 ![GitHub Forks](https://img.shields.io/github/forks/huey1in/1inorder_back)
 ![Vue](https://img.shields.io/badge/Vue-3.x-green)
