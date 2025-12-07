@@ -2,7 +2,7 @@ import axios from 'axios'
 import { ElMessage } from 'element-plus'
 
 // 开发环境使用代理，生产环境直接访问后端 API 服务器
-const baseURL = import.meta.env.DEV ? '' : 'https://order.yinxh.fun'
+const baseURL = import.meta.env.DEV ? '' : 'http://localhost:3000'
 
 const instance = axios.create({
   baseURL,

@@ -13,12 +13,12 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/admin': {
-        target: 'https://order.yinxh.fun',
+        target: 'http://localhost:3000',
         changeOrigin: true,
         secure: true
       },
       '/uploads': {
-        target: 'https://order.yinxh.fun',
+        target: 'http://localhost:3000',
         changeOrigin: true,
         secure: true
       }
